@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Specialist Tests</title>
+<style>
+  body { font: 14px/1.5 ui-monospace, Menlo, monospace; margin: 16px; background: #fff; color: #111; }
+  .pass { color: #1d7a3e; } .fail { color: #b3261e; }
+</style>
+</head>
+<body>
+<h1 id="summary">Running…</h1>
+<ol id="out"></ol>
+<script type="module">
+import { tests } from "./specialists.test.js";
+const out = document.getElementById("out");
+const results = [];
+for (const t of tests) {
+  try { await t.fn(); results.push({ name: t.name, ok: true }); }
+  catch (e) { results.push({ name: t.name, ok: false, error: e.message }); }
+  const r = results.at(-1);
+  const li = document.createElement("li");
+  li.className = r.ok ? "pass" : "fail";
+  li.textContent = `${r.ok ? "PASS" : "FAIL"} ${r.name}${r.ok ? "" : " — " + r.error}`;
+  out.append(li);
+}
+const failed = results.filter((r) => !r.ok).length;
+document.getElementById("summary").textContent = `${results.length - failed}/${results.length} passed`;
+window.__results = { total: results.length, failed, results };
+</script>
+</body>
+</html>
