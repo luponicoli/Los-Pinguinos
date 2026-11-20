@@ -1,0 +1,2918 @@
+{
+  "dataset": "Maastricht heating specialists",
+  "version": 1,
+  "generatedAt": "2026-11-20",
+  "city": "Maastricht",
+  "records": [
+    {
+      "id": "pub-cvstoring-maastricht",
+      "name": "CV Storing Maastricht",
+      "city": "Maastricht",
+      "area": "Maastricht",
+      "address": null,
+      "postcode": null,
+      "position": {
+        "latitude": 50.852,
+        "longitude": 5.691,
+        "precision": "approximate_area_centroid"
+      },
+      "services": [
+        "no_heat",
+        "boiler",
+        "radiator",
+        "hot_water",
+        "thermostat"
+      ],
+      "priceRanges": [
+        {
+          "problem_type": "no_heat",
+          "minimum_eur": 75,
+          "maximum_eur": 150,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "boiler",
+          "minimum_eur": 80,
+          "maximum_eur": 165,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "radiator",
+          "minimum_eur": 65,
+          "maximum_eur": 135,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "hot_water",
+          "minimum_eur": 75,
+          "maximum_eur": 150,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "thermostat",
+          "minimum_eur": 60,
+          "maximum_eur": 125,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        }
+      ],
+      "reviews": {
+        "score": null,
+        "scale": 5,
+        "count": 0,
+        "source": null,
+        "sourceUrl": null,
+        "simulated": false
+      },
+      "nextAvailableAt": "2026-11-23T09:00:00+01:00",
+      "availabilitySimulated": true,
+      "recordOrigin": "public_listing",
+      "sourceUrl": "https://www.cvstoring-maastricht.nl/tarieven.html"
+    },
+    {
+      "id": "pub-gj-installaties",
+      "name": "GJ Installaties B.V.",
+      "city": "Maastricht",
+      "area": "Heer",
+      "address": "Oombosch 2",
+      "postcode": "6228 SW",
+      "position": {
+        "latitude": 50.828,
+        "longitude": 5.728,
+        "precision": "approximate_area_centroid"
+      },
+      "services": [
+        "boiler",
+        "radiator",
+        "hot_water",
+        "thermostat"
+      ],
+      "priceRanges": [
+        {
+          "problem_type": "boiler",
+          "minimum_eur": 85,
+          "maximum_eur": 170,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "radiator",
+          "minimum_eur": 70,
+          "maximum_eur": 140,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "hot_water",
+          "minimum_eur": 75,
+          "maximum_eur": 160,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "thermostat",
+          "minimum_eur": 65,
+          "maximum_eur": 130,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        }
+      ],
+      "reviews": {
+        "score": 5.0,
+        "scale": 5,
+        "count": 13,
+        "source": "Google rating as reported by Loodgieters bij mij",
+        "sourceUrl": "https://www.loodgietersbijmij.nl/loodgieter/1854/gj-installaties-b-v",
+        "simulated": false
+      },
+      "nextAvailableAt": "2026-11-26T11:00:00+01:00",
+      "availabilitySimulated": true,
+      "recordOrigin": "public_listing",
+      "sourceUrl": "https://www.loodgietersbijmij.nl/loodgieter/1854/gj-installaties-b-v"
+    },
+    {
+      "id": "pub-aa-installaties",
+      "name": "AA Installaties Maastricht B.V.",
+      "city": "Maastricht",
+      "area": "Wittevrouwenveld",
+      "address": "Eburonenweg 11",
+      "postcode": "6224 HN",
+      "position": {
+        "latitude": 50.857,
+        "longitude": 5.716,
+        "precision": "approximate_area_centroid"
+      },
+      "services": [
+        "boiler",
+        "radiator",
+        "hot_water",
+        "thermostat",
+        "heat_pump"
+      ],
+      "priceRanges": [
+        {
+          "problem_type": "boiler",
+          "minimum_eur": 90,
+          "maximum_eur": 180,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "radiator",
+          "minimum_eur": 70,
+          "maximum_eur": 145,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "hot_water",
+          "minimum_eur": 80,
+          "maximum_eur": 165,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "thermostat",
+          "minimum_eur": 65,
+          "maximum_eur": 140,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "heat_pump",
+          "minimum_eur": 120,
+          "maximum_eur": 245,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        }
+      ],
+      "reviews": {
+        "score": 2.8,
+        "scale": 5,
+        "count": 63,
+        "source": "Brinqs",
+        "sourceUrl": "https://brinqs.nl/installatiebedrijf/maastricht/aa-installaties-maastricht-bv-9495",
+        "simulated": false
+      },
+      "nextAvailableAt": "2026-11-30T13:00:00+01:00",
+      "availabilitySimulated": true,
+      "recordOrigin": "public_listing",
+      "sourceUrl": "https://brinqs.nl/installatiebedrijf/maastricht/aa-installaties-maastricht-bv-9495"
+    },
+    {
+      "id": "pub-technisch-buro-hermans",
+      "name": "Technisch Buro Hermans (TBH)",
+      "city": "Maastricht",
+      "area": "Amby",
+      "address": "Watermolen 24",
+      "postcode": "6229 PM",
+      "position": {
+        "latitude": 50.875,
+        "longitude": 5.741,
+        "precision": "approximate_area_centroid"
+      },
+      "services": [
+        "boiler",
+        "radiator",
+        "hot_water",
+        "heat_pump"
+      ],
+      "priceRanges": [
+        {
+          "problem_type": "boiler",
+          "minimum_eur": 95,
+          "maximum_eur": 190,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "radiator",
+          "minimum_eur": 75,
+          "maximum_eur": 155,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "hot_water",
+          "minimum_eur": 85,
+          "maximum_eur": 175,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "heat_pump",
+          "minimum_eur": 125,
+          "maximum_eur": 260,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        }
+      ],
+      "reviews": {
+        "score": 3.8,
+        "scale": 5,
+        "count": 7,
+        "source": "Trustoo",
+        "sourceUrl": "https://trustoo.nl/limburg/maastricht/cv-verwarmings-installateur/",
+        "simulated": false
+      },
+      "nextAvailableAt": "2026-12-02T15:00:00+01:00",
+      "availabilitySimulated": true,
+      "recordOrigin": "public_listing",
+      "sourceUrl": "https://trustoo.nl/limburg/maastricht/cv-verwarmings-installateur/"
+    },
+    {
+      "id": "pub-installatieservice-jurgen",
+      "name": "Installatie Service Jurgen",
+      "city": "Maastricht",
+      "area": "Randwyck",
+      "address": "Punterweg 32",
+      "postcode": "6222 NW",
+      "position": {
+        "latitude": 50.835,
+        "longitude": 5.715,
+        "precision": "approximate_area_centroid"
+      },
+      "services": [
+        "boiler",
+        "radiator",
+        "hot_water",
+        "thermostat"
+      ],
+      "priceRanges": [
+        {
+          "problem_type": "boiler",
+          "minimum_eur": 100,
+          "maximum_eur": 200,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "radiator",
+          "minimum_eur": 80,
+          "maximum_eur": 160,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "hot_water",
+          "minimum_eur": 90,
+          "maximum_eur": 180,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "thermostat",
+          "minimum_eur": 75,
+          "maximum_eur": 150,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        }
+      ],
+      "reviews": {
+        "score": null,
+        "scale": 5,
+        "count": 0,
+        "source": null,
+        "sourceUrl": null,
+        "simulated": false
+      },
+      "nextAvailableAt": "2026-12-07T09:00:00+01:00",
+      "availabilitySimulated": true,
+      "recordOrigin": "public_listing",
+      "sourceUrl": "https://installatieservicejurgen.nl/"
+    },
+    {
+      "id": "pub-alberto-thomassen",
+      "name": "Loodgieters- en Verwarmingsbedrijf A. Thomassen",
+      "city": "Maastricht",
+      "area": "Heer",
+      "address": "Molenweg 117",
+      "postcode": "6225 NB",
+      "position": {
+        "latitude": 50.822,
+        "longitude": 5.729,
+        "precision": "approximate_area_centroid"
+      },
+      "services": [
+        "boiler",
+        "radiator",
+        "hot_water"
+      ],
+      "priceRanges": [
+        {
+          "problem_type": "boiler",
+          "minimum_eur": 105,
+          "maximum_eur": 205,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "radiator",
+          "minimum_eur": 80,
+          "maximum_eur": 170,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "hot_water",
+          "minimum_eur": 90,
+          "maximum_eur": 190,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        }
+      ],
+      "reviews": {
+        "score": null,
+        "scale": 5,
+        "count": 0,
+        "source": null,
+        "sourceUrl": null,
+        "simulated": false
+      },
+      "nextAvailableAt": "2026-12-08T11:00:00+01:00",
+      "availabilitySimulated": true,
+      "recordOrigin": "public_listing",
+      "sourceUrl": "https://www.cylex.nl/bedrijf/loodgieters-verwarmingsbedrijf-a-thomassen-10890198.html"
+    },
+    {
+      "id": "pub-klusbedrijf-r-houben",
+      "name": "Klusbedrijf R. Houben",
+      "city": "Maastricht",
+      "area": "Wyck",
+      "address": "Avenue Céramique 221",
+      "postcode": "6221 KX",
+      "position": {
+        "latitude": 50.849,
+        "longitude": 5.704,
+        "precision": "approximate_area_centroid"
+      },
+      "services": [
+        "no_heat",
+        "boiler",
+        "radiator",
+        "hot_water",
+        "thermostat"
+      ],
+      "priceRanges": [
+        {
+          "problem_type": "no_heat",
+          "minimum_eur": 100,
+          "maximum_eur": 200,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "boiler",
+          "minimum_eur": 105,
+          "maximum_eur": 215,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "radiator",
+          "minimum_eur": 85,
+          "maximum_eur": 175,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "hot_water",
+          "minimum_eur": 95,
+          "maximum_eur": 200,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "thermostat",
+          "minimum_eur": 80,
+          "maximum_eur": 165,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        }
+      ],
+      "reviews": {
+        "score": 5.0,
+        "scale": 5,
+        "count": 22,
+        "source": "BesteVakmanInDeBuurt",
+        "sourceUrl": "https://bestevakmanindebuurt.nl/cv-monteur/maastricht/klusbedrijf-r-houben-maastricht",
+        "simulated": false
+      },
+      "nextAvailableAt": "2026-11-24T13:00:00+01:00",
+      "availabilitySimulated": true,
+      "recordOrigin": "public_listing",
+      "sourceUrl": "https://bestevakmanindebuurt.nl/cv-monteur/maastricht/klusbedrijf-r-houben-maastricht"
+    },
+    {
+      "id": "pub-mennen-installaties",
+      "name": "Mennen Installaties",
+      "city": "Maastricht",
+      "area": "Maastricht (service area; address not published)",
+      "address": null,
+      "postcode": null,
+      "position": {
+        "latitude": 50.852,
+        "longitude": 5.691,
+        "precision": "approximate_area_centroid"
+      },
+      "services": [
+        "boiler",
+        "radiator",
+        "hot_water",
+        "thermostat"
+      ],
+      "priceRanges": [
+        {
+          "problem_type": "boiler",
+          "minimum_eur": 110,
+          "maximum_eur": 225,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "radiator",
+          "minimum_eur": 90,
+          "maximum_eur": 180,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "hot_water",
+          "minimum_eur": 100,
+          "maximum_eur": 205,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "thermostat",
+          "minimum_eur": 80,
+          "maximum_eur": 170,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        }
+      ],
+      "reviews": {
+        "score": null,
+        "scale": 5,
+        "count": 0,
+        "source": null,
+        "sourceUrl": null,
+        "simulated": false
+      },
+      "nextAvailableAt": "2026-11-27T15:00:00+01:00",
+      "availabilitySimulated": true,
+      "recordOrigin": "public_listing",
+      "sourceUrl": "https://menneninstallaties.nl/"
+    },
+    {
+      "id": "pub-hogenboom-installaties",
+      "name": "Hogenboom Installaties",
+      "city": "Maastricht",
+      "area": "Bosscherveld",
+      "address": "Sandersweg 110",
+      "postcode": "6219 NW",
+      "position": {
+        "latitude": 50.87,
+        "longitude": 5.679,
+        "precision": "approximate_area_centroid"
+      },
+      "services": [
+        "boiler",
+        "radiator",
+        "hot_water",
+        "heat_pump"
+      ],
+      "priceRanges": [
+        {
+          "problem_type": "boiler",
+          "minimum_eur": 115,
+          "maximum_eur": 230,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "radiator",
+          "minimum_eur": 90,
+          "maximum_eur": 190,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "hot_water",
+          "minimum_eur": 105,
+          "maximum_eur": 215,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "heat_pump",
+          "minimum_eur": 150,
+          "maximum_eur": 315,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        }
+      ],
+      "reviews": {
+        "score": null,
+        "scale": 5,
+        "count": 0,
+        "source": null,
+        "sourceUrl": null,
+        "simulated": false
+      },
+      "nextAvailableAt": "2026-11-30T09:00:00+01:00",
+      "availabilitySimulated": true,
+      "recordOrigin": "public_listing",
+      "sourceUrl": "https://vandekreekegroep.com/wp-content/uploads/2024/03/20240315-KVK-Loodgietersbedrijf-J.P.-Hogenboom-BV-14630581.pdf"
+    },
+    {
+      "id": "pub-ramakers-installatie-service",
+      "name": "R.I.S. Ramakers Installatie Service",
+      "city": "Maastricht",
+      "area": "Bosscherveld",
+      "address": "Sleperweg 40",
+      "postcode": "6222 NK",
+      "position": {
+        "latitude": 50.87,
+        "longitude": 5.679,
+        "precision": "approximate_area_centroid"
+      },
+      "services": [
+        "boiler",
+        "radiator",
+        "hot_water",
+        "heat_pump"
+      ],
+      "priceRanges": [
+        {
+          "problem_type": "boiler",
+          "minimum_eur": 80,
+          "maximum_eur": 165,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "radiator",
+          "minimum_eur": 65,
+          "maximum_eur": 135,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "hot_water",
+          "minimum_eur": 75,
+          "maximum_eur": 150,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "heat_pump",
+          "minimum_eur": 110,
+          "maximum_eur": 225,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        }
+      ],
+      "reviews": {
+        "score": null,
+        "scale": 5,
+        "count": 0,
+        "source": null,
+        "sourceUrl": null,
+        "simulated": false
+      },
+      "nextAvailableAt": "2026-12-03T11:00:00+01:00",
+      "availabilitySimulated": true,
+      "recordOrigin": "public_listing",
+      "sourceUrl": "https://installatiebedrijf-gids.nl/limburg/maastricht/r-i-s-ramakers-installatie-service/"
+    },
+    {
+      "id": "demo-maastricht-001",
+      "name": "MaasWarm Team Demo 01",
+      "city": "Maastricht",
+      "area": "Centrum",
+      "address": null,
+      "postcode": null,
+      "position": {
+        "latitude": 50.8515,
+        "longitude": 5.6905,
+        "precision": "synthetic_area_centroid"
+      },
+      "services": [
+        "no_heat",
+        "boiler",
+        "radiator"
+      ],
+      "priceRanges": [
+        {
+          "problem_type": "no_heat",
+          "minimum_eur": 80,
+          "maximum_eur": 160,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "boiler",
+          "minimum_eur": 85,
+          "maximum_eur": 170,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "radiator",
+          "minimum_eur": 70,
+          "maximum_eur": 140,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        }
+      ],
+      "reviews": {
+        "score": 3.6,
+        "scale": 5,
+        "count": 8,
+        "source": "Synthetic demo reviews",
+        "sourceUrl": null,
+        "simulated": true
+      },
+      "nextAvailableAt": "2026-12-07T13:00:00+01:00",
+      "availabilitySimulated": true,
+      "recordOrigin": "demo_sample",
+      "sourceUrl": null
+    },
+    {
+      "id": "demo-maastricht-002",
+      "name": "Limburg Heat Team Demo 02",
+      "city": "Maastricht",
+      "area": "Wyck",
+      "address": null,
+      "postcode": null,
+      "position": {
+        "latitude": 50.85,
+        "longitude": 5.7025,
+        "precision": "synthetic_area_centroid"
+      },
+      "services": [
+        "radiator",
+        "hot_water",
+        "thermostat",
+        "heat_pump"
+      ],
+      "priceRanges": [
+        {
+          "problem_type": "radiator",
+          "minimum_eur": 70,
+          "maximum_eur": 145,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "hot_water",
+          "minimum_eur": 80,
+          "maximum_eur": 165,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "thermostat",
+          "minimum_eur": 65,
+          "maximum_eur": 140,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "heat_pump",
+          "minimum_eur": 120,
+          "maximum_eur": 245,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        }
+      ],
+      "reviews": {
+        "score": 4.3,
+        "scale": 5,
+        "count": 27,
+        "source": "Synthetic demo reviews",
+        "sourceUrl": null,
+        "simulated": true
+      },
+      "nextAvailableAt": "2026-12-09T15:00:00+01:00",
+      "availabilitySimulated": true,
+      "recordOrigin": "demo_sample",
+      "sourceUrl": null
+    },
+    {
+      "id": "demo-maastricht-003",
+      "name": "Stadsverwarming Service Team Demo 03",
+      "city": "Maastricht",
+      "area": "Wittevrouwenveld",
+      "address": null,
+      "postcode": null,
+      "position": {
+        "latitude": 50.8575,
+        "longitude": 5.7155,
+        "precision": "synthetic_area_centroid"
+      },
+      "services": [
+        "thermostat",
+        "heat_pump",
+        "no_heat",
+        "boiler",
+        "radiator"
+      ],
+      "priceRanges": [
+        {
+          "problem_type": "thermostat",
+          "minimum_eur": 70,
+          "maximum_eur": 145,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "heat_pump",
+          "minimum_eur": 125,
+          "maximum_eur": 260,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "no_heat",
+          "minimum_eur": 90,
+          "maximum_eur": 175,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "boiler",
+          "minimum_eur": 95,
+          "maximum_eur": 190,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "radiator",
+          "minimum_eur": 75,
+          "maximum_eur": 155,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        }
+      ],
+      "reviews": {
+        "score": 3.6,
+        "scale": 5,
+        "count": 46,
+        "source": "Synthetic demo reviews",
+        "sourceUrl": null,
+        "simulated": true
+      },
+      "nextAvailableAt": "2026-11-25T09:00:00+01:00",
+      "availabilitySimulated": true,
+      "recordOrigin": "demo_sample",
+      "sourceUrl": null
+    },
+    {
+      "id": "demo-maastricht-004",
+      "name": "ComfortKetel Team Demo 04",
+      "city": "Maastricht",
+      "area": "Heer",
+      "address": null,
+      "postcode": null,
+      "position": {
+        "latitude": 50.8235,
+        "longitude": 5.728,
+        "precision": "synthetic_area_centroid"
+      },
+      "services": [
+        "no_heat",
+        "boiler",
+        "radiator",
+        "hot_water",
+        "thermostat",
+        "heat_pump"
+      ],
+      "priceRanges": [
+        {
+          "problem_type": "no_heat",
+          "minimum_eur": 95,
+          "maximum_eur": 180,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "boiler",
+          "minimum_eur": 100,
+          "maximum_eur": 200,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "radiator",
+          "minimum_eur": 80,
+          "maximum_eur": 160,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "hot_water",
+          "minimum_eur": 90,
+          "maximum_eur": 180,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "thermostat",
+          "minimum_eur": 75,
+          "maximum_eur": 150,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "heat_pump",
+          "minimum_eur": 130,
+          "maximum_eur": 270,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        }
+      ],
+      "reviews": {
+        "score": 4.3,
+        "scale": 5,
+        "count": 65,
+        "source": "Synthetic demo reviews",
+        "sourceUrl": null,
+        "simulated": true
+      },
+      "nextAvailableAt": "2026-11-30T11:00:00+01:00",
+      "availabilitySimulated": true,
+      "recordOrigin": "demo_sample",
+      "sourceUrl": null
+    },
+    {
+      "id": "demo-maastricht-005",
+      "name": "Heater Help Team Demo 05",
+      "city": "Maastricht",
+      "area": "Scharn",
+      "address": null,
+      "postcode": null,
+      "position": {
+        "latitude": 50.852,
+        "longitude": 5.722,
+        "precision": "synthetic_area_centroid"
+      },
+      "services": [
+        "radiator",
+        "hot_water",
+        "thermostat"
+      ],
+      "priceRanges": [
+        {
+          "problem_type": "radiator",
+          "minimum_eur": 80,
+          "maximum_eur": 170,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "hot_water",
+          "minimum_eur": 90,
+          "maximum_eur": 190,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "thermostat",
+          "minimum_eur": 75,
+          "maximum_eur": 155,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        }
+      ],
+      "reviews": {
+        "score": 3.6,
+        "scale": 5,
+        "count": 84,
+        "source": "Synthetic demo reviews",
+        "sourceUrl": null,
+        "simulated": true
+      },
+      "nextAvailableAt": "2026-12-01T13:00:00+01:00",
+      "availabilitySimulated": true,
+      "recordOrigin": "demo_sample",
+      "sourceUrl": null
+    },
+    {
+      "id": "demo-maastricht-006",
+      "name": "Maasland Installaties Team Demo 06",
+      "city": "Maastricht",
+      "area": "Amby",
+      "address": null,
+      "postcode": null,
+      "position": {
+        "latitude": 50.8755,
+        "longitude": 5.741,
+        "precision": "synthetic_area_centroid"
+      },
+      "services": [
+        "thermostat",
+        "heat_pump",
+        "no_heat",
+        "boiler"
+      ],
+      "priceRanges": [
+        {
+          "problem_type": "thermostat",
+          "minimum_eur": 80,
+          "maximum_eur": 165,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "heat_pump",
+          "minimum_eur": 140,
+          "maximum_eur": 295,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "no_heat",
+          "minimum_eur": 100,
+          "maximum_eur": 200,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "boiler",
+          "minimum_eur": 105,
+          "maximum_eur": 215,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        }
+      ],
+      "reviews": {
+        "score": 4.3,
+        "scale": 5,
+        "count": 103,
+        "source": "Synthetic demo reviews",
+        "sourceUrl": null,
+        "simulated": true
+      },
+      "nextAvailableAt": "2026-12-04T15:00:00+01:00",
+      "availabilitySimulated": true,
+      "recordOrigin": "demo_sample",
+      "sourceUrl": null
+    },
+    {
+      "id": "demo-maastricht-007",
+      "name": "WarmThuis Team Demo 07",
+      "city": "Maastricht",
+      "area": "Randwyck",
+      "address": null,
+      "postcode": null,
+      "position": {
+        "latitude": 50.8335,
+        "longitude": 5.7155,
+        "precision": "synthetic_area_centroid"
+      },
+      "services": [
+        "no_heat",
+        "boiler",
+        "radiator",
+        "hot_water",
+        "thermostat"
+      ],
+      "priceRanges": [
+        {
+          "problem_type": "no_heat",
+          "minimum_eur": 105,
+          "maximum_eur": 205,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "boiler",
+          "minimum_eur": 110,
+          "maximum_eur": 225,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "radiator",
+          "minimum_eur": 90,
+          "maximum_eur": 180,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "hot_water",
+          "minimum_eur": 100,
+          "maximum_eur": 205,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "thermostat",
+          "minimum_eur": 80,
+          "maximum_eur": 170,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        }
+      ],
+      "reviews": {
+        "score": 3.6,
+        "scale": 5,
+        "count": 122,
+        "source": "Synthetic demo reviews",
+        "sourceUrl": null,
+        "simulated": true
+      },
+      "nextAvailableAt": "2026-12-07T09:00:00+01:00",
+      "availabilitySimulated": true,
+      "recordOrigin": "demo_sample",
+      "sourceUrl": null
+    },
+    {
+      "id": "demo-maastricht-008",
+      "name": "Zuid Service Team Demo 08",
+      "city": "Maastricht",
+      "area": "De Heeg",
+      "address": null,
+      "postcode": null,
+      "position": {
+        "latitude": 50.819,
+        "longitude": 5.7165,
+        "precision": "synthetic_area_centroid"
+      },
+      "services": [
+        "radiator",
+        "hot_water",
+        "thermostat",
+        "heat_pump",
+        "no_heat",
+        "boiler"
+      ],
+      "priceRanges": [
+        {
+          "problem_type": "radiator",
+          "minimum_eur": 90,
+          "maximum_eur": 190,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "hot_water",
+          "minimum_eur": 105,
+          "maximum_eur": 215,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "thermostat",
+          "minimum_eur": 85,
+          "maximum_eur": 175,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "heat_pump",
+          "minimum_eur": 150,
+          "maximum_eur": 315,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "no_heat",
+          "minimum_eur": 110,
+          "maximum_eur": 215,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "boiler",
+          "minimum_eur": 115,
+          "maximum_eur": 230,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        }
+      ],
+      "reviews": {
+        "score": 4.3,
+        "scale": 5,
+        "count": 141,
+        "source": "Synthetic demo reviews",
+        "sourceUrl": null,
+        "simulated": true
+      },
+      "nextAvailableAt": "2026-11-23T11:00:00+01:00",
+      "availabilitySimulated": true,
+      "recordOrigin": "demo_sample",
+      "sourceUrl": null
+    },
+    {
+      "id": "demo-maastricht-009",
+      "name": "KetelKeur Team Demo 09",
+      "city": "Maastricht",
+      "area": "Daalhof",
+      "address": null,
+      "postcode": null,
+      "position": {
+        "latitude": 50.8465,
+        "longitude": 5.6505,
+        "precision": "synthetic_area_centroid"
+      },
+      "services": [
+        "thermostat",
+        "heat_pump",
+        "no_heat"
+      ],
+      "priceRanges": [
+        {
+          "problem_type": "thermostat",
+          "minimum_eur": 60,
+          "maximum_eur": 125,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "heat_pump",
+          "minimum_eur": 110,
+          "maximum_eur": 225,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "no_heat",
+          "minimum_eur": 75,
+          "maximum_eur": 150,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        }
+      ],
+      "reviews": {
+        "score": 3.6,
+        "scale": 5,
+        "count": 23,
+        "source": "Synthetic demo reviews",
+        "sourceUrl": null,
+        "simulated": true
+      },
+      "nextAvailableAt": "2026-11-26T13:00:00+01:00",
+      "availabilitySimulated": true,
+      "recordOrigin": "demo_sample",
+      "sourceUrl": null
+    },
+    {
+      "id": "demo-maastricht-010",
+      "name": "Heer Heating Team Demo 10",
+      "city": "Maastricht",
+      "area": "Brusselsepoort",
+      "address": null,
+      "postcode": null,
+      "position": {
+        "latitude": 50.8495,
+        "longitude": 5.6655,
+        "precision": "synthetic_area_centroid"
+      },
+      "services": [
+        "no_heat",
+        "boiler",
+        "radiator",
+        "hot_water"
+      ],
+      "priceRanges": [
+        {
+          "problem_type": "no_heat",
+          "minimum_eur": 80,
+          "maximum_eur": 160,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "boiler",
+          "minimum_eur": 85,
+          "maximum_eur": 170,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "radiator",
+          "minimum_eur": 70,
+          "maximum_eur": 140,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "hot_water",
+          "minimum_eur": 75,
+          "maximum_eur": 160,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        }
+      ],
+      "reviews": {
+        "score": 4.3,
+        "scale": 5,
+        "count": 42,
+        "source": "Synthetic demo reviews",
+        "sourceUrl": null,
+        "simulated": true
+      },
+      "nextAvailableAt": "2026-11-30T15:00:00+01:00",
+      "availabilitySimulated": true,
+      "recordOrigin": "demo_sample",
+      "sourceUrl": null
+    },
+    {
+      "id": "demo-maastricht-011",
+      "name": "ThermoFix Team Demo 11",
+      "city": "Maastricht",
+      "area": "Statenkwartier",
+      "address": null,
+      "postcode": null,
+      "position": {
+        "latitude": 50.856,
+        "longitude": 5.6755,
+        "precision": "synthetic_area_centroid"
+      },
+      "services": [
+        "radiator",
+        "hot_water",
+        "thermostat",
+        "heat_pump",
+        "no_heat"
+      ],
+      "priceRanges": [
+        {
+          "problem_type": "radiator",
+          "minimum_eur": 70,
+          "maximum_eur": 145,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "hot_water",
+          "minimum_eur": 80,
+          "maximum_eur": 165,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "thermostat",
+          "minimum_eur": 65,
+          "maximum_eur": 140,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "heat_pump",
+          "minimum_eur": 120,
+          "maximum_eur": 245,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "no_heat",
+          "minimum_eur": 85,
+          "maximum_eur": 165,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        }
+      ],
+      "reviews": {
+        "score": 3.6,
+        "scale": 5,
+        "count": 61,
+        "source": "Synthetic demo reviews",
+        "sourceUrl": null,
+        "simulated": true
+      },
+      "nextAvailableAt": "2026-12-02T09:00:00+01:00",
+      "availabilitySimulated": true,
+      "recordOrigin": "demo_sample",
+      "sourceUrl": null
+    },
+    {
+      "id": "demo-maastricht-012",
+      "name": "Centrale Warmte Team Demo 12",
+      "city": "Maastricht",
+      "area": "Malberg",
+      "address": null,
+      "postcode": null,
+      "position": {
+        "latitude": 50.8615,
+        "longitude": 5.6365,
+        "precision": "synthetic_area_centroid"
+      },
+      "services": [
+        "thermostat",
+        "heat_pump",
+        "no_heat",
+        "boiler",
+        "radiator",
+        "hot_water"
+      ],
+      "priceRanges": [
+        {
+          "problem_type": "thermostat",
+          "minimum_eur": 70,
+          "maximum_eur": 145,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "heat_pump",
+          "minimum_eur": 125,
+          "maximum_eur": 260,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "no_heat",
+          "minimum_eur": 90,
+          "maximum_eur": 175,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "boiler",
+          "minimum_eur": 95,
+          "maximum_eur": 190,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "radiator",
+          "minimum_eur": 75,
+          "maximum_eur": 155,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "hot_water",
+          "minimum_eur": 85,
+          "maximum_eur": 175,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        }
+      ],
+      "reviews": {
+        "score": 4.3,
+        "scale": 5,
+        "count": 80,
+        "source": "Synthetic demo reviews",
+        "sourceUrl": null,
+        "simulated": true
+      },
+      "nextAvailableAt": "2026-12-07T11:00:00+01:00",
+      "availabilitySimulated": true,
+      "recordOrigin": "demo_sample",
+      "sourceUrl": null
+    },
+    {
+      "id": "demo-maastricht-013",
+      "name": "Radiator & Co Team Demo 13",
+      "city": "Maastricht",
+      "area": "Caberg",
+      "address": null,
+      "postcode": null,
+      "position": {
+        "latitude": 50.8625,
+        "longitude": 5.66,
+        "precision": "synthetic_area_centroid"
+      },
+      "services": [
+        "no_heat",
+        "boiler",
+        "radiator"
+      ],
+      "priceRanges": [
+        {
+          "problem_type": "no_heat",
+          "minimum_eur": 95,
+          "maximum_eur": 180,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "boiler",
+          "minimum_eur": 100,
+          "maximum_eur": 200,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "radiator",
+          "minimum_eur": 80,
+          "maximum_eur": 160,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        }
+      ],
+      "reviews": {
+        "score": 3.6,
+        "scale": 5,
+        "count": 99,
+        "source": "Synthetic demo reviews",
+        "sourceUrl": null,
+        "simulated": true
+      },
+      "nextAvailableAt": "2026-12-08T13:00:00+01:00",
+      "availabilitySimulated": true,
+      "recordOrigin": "demo_sample",
+      "sourceUrl": null
+    },
+    {
+      "id": "demo-maastricht-014",
+      "name": "BoilerCare Team Demo 14",
+      "city": "Maastricht",
+      "area": "Biesland",
+      "address": null,
+      "postcode": null,
+      "position": {
+        "latitude": 50.837,
+        "longitude": 5.668,
+        "precision": "synthetic_area_centroid"
+      },
+      "services": [
+        "radiator",
+        "hot_water",
+        "thermostat",
+        "heat_pump"
+      ],
+      "priceRanges": [
+        {
+          "problem_type": "radiator",
+          "minimum_eur": 80,
+          "maximum_eur": 170,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "hot_water",
+          "minimum_eur": 90,
+          "maximum_eur": 190,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "thermostat",
+          "minimum_eur": 75,
+          "maximum_eur": 155,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "heat_pump",
+          "minimum_eur": 135,
+          "maximum_eur": 280,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        }
+      ],
+      "reviews": {
+        "score": 4.3,
+        "scale": 5,
+        "count": 118,
+        "source": "Synthetic demo reviews",
+        "sourceUrl": null,
+        "simulated": true
+      },
+      "nextAvailableAt": "2026-11-24T15:00:00+01:00",
+      "availabilitySimulated": true,
+      "recordOrigin": "demo_sample",
+      "sourceUrl": null
+    },
+    {
+      "id": "demo-maastricht-015",
+      "name": "HeatPoint Team Demo 15",
+      "city": "Maastricht",
+      "area": "Sint Pieter",
+      "address": null,
+      "postcode": null,
+      "position": {
+        "latitude": 50.8325,
+        "longitude": 5.688,
+        "precision": "synthetic_area_centroid"
+      },
+      "services": [
+        "thermostat",
+        "heat_pump",
+        "no_heat",
+        "boiler",
+        "radiator"
+      ],
+      "priceRanges": [
+        {
+          "problem_type": "thermostat",
+          "minimum_eur": 80,
+          "maximum_eur": 165,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "heat_pump",
+          "minimum_eur": 140,
+          "maximum_eur": 295,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "no_heat",
+          "minimum_eur": 100,
+          "maximum_eur": 200,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "boiler",
+          "minimum_eur": 105,
+          "maximum_eur": 215,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "radiator",
+          "minimum_eur": 85,
+          "maximum_eur": 175,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        }
+      ],
+      "reviews": {
+        "score": 3.6,
+        "scale": 5,
+        "count": 137,
+        "source": "Synthetic demo reviews",
+        "sourceUrl": null,
+        "simulated": true
+      },
+      "nextAvailableAt": "2026-11-27T09:00:00+01:00",
+      "availabilitySimulated": true,
+      "recordOrigin": "demo_sample",
+      "sourceUrl": null
+    },
+    {
+      "id": "demo-maastricht-016",
+      "name": "WarmteWerk Team Demo 16",
+      "city": "Maastricht",
+      "area": "Mariaberg",
+      "address": null,
+      "postcode": null,
+      "position": {
+        "latitude": 50.8445,
+        "longitude": 5.6745,
+        "precision": "synthetic_area_centroid"
+      },
+      "services": [
+        "no_heat",
+        "boiler",
+        "radiator",
+        "hot_water",
+        "thermostat",
+        "heat_pump"
+      ],
+      "priceRanges": [
+        {
+          "problem_type": "no_heat",
+          "minimum_eur": 105,
+          "maximum_eur": 205,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "boiler",
+          "minimum_eur": 110,
+          "maximum_eur": 225,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "radiator",
+          "minimum_eur": 90,
+          "maximum_eur": 180,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "hot_water",
+          "minimum_eur": 100,
+          "maximum_eur": 205,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "thermostat",
+          "minimum_eur": 80,
+          "maximum_eur": 170,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "heat_pump",
+          "minimum_eur": 145,
+          "maximum_eur": 305,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        }
+      ],
+      "reviews": {
+        "score": 4.3,
+        "scale": 5,
+        "count": 19,
+        "source": "Synthetic demo reviews",
+        "sourceUrl": null,
+        "simulated": true
+      },
+      "nextAvailableAt": "2026-11-30T11:00:00+01:00",
+      "availabilitySimulated": true,
+      "recordOrigin": "demo_sample",
+      "sourceUrl": null
+    },
+    {
+      "id": "demo-maastricht-017",
+      "name": "Maas Klimaat Team Demo 17",
+      "city": "Maastricht",
+      "area": "Heugem",
+      "address": null,
+      "postcode": null,
+      "position": {
+        "latitude": 50.824,
+        "longitude": 5.7105,
+        "precision": "synthetic_area_centroid"
+      },
+      "services": [
+        "radiator",
+        "hot_water",
+        "thermostat"
+      ],
+      "priceRanges": [
+        {
+          "problem_type": "radiator",
+          "minimum_eur": 90,
+          "maximum_eur": 190,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "hot_water",
+          "minimum_eur": 105,
+          "maximum_eur": 215,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "thermostat",
+          "minimum_eur": 85,
+          "maximum_eur": 175,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        }
+      ],
+      "reviews": {
+        "score": 3.6,
+        "scale": 5,
+        "count": 38,
+        "source": "Synthetic demo reviews",
+        "sourceUrl": null,
+        "simulated": true
+      },
+      "nextAvailableAt": "2026-12-03T13:00:00+01:00",
+      "availabilitySimulated": true,
+      "recordOrigin": "demo_sample",
+      "sourceUrl": null
+    },
+    {
+      "id": "demo-maastricht-018",
+      "name": "HomeHeat Team Demo 18",
+      "city": "Maastricht",
+      "area": "Limmel",
+      "address": null,
+      "postcode": null,
+      "position": {
+        "latitude": 50.8725,
+        "longitude": 5.6995,
+        "precision": "synthetic_area_centroid"
+      },
+      "services": [
+        "thermostat",
+        "heat_pump",
+        "no_heat",
+        "boiler"
+      ],
+      "priceRanges": [
+        {
+          "problem_type": "thermostat",
+          "minimum_eur": 60,
+          "maximum_eur": 125,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "heat_pump",
+          "minimum_eur": 110,
+          "maximum_eur": 225,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "no_heat",
+          "minimum_eur": 75,
+          "maximum_eur": 150,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "boiler",
+          "minimum_eur": 80,
+          "maximum_eur": 165,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        }
+      ],
+      "reviews": {
+        "score": 4.3,
+        "scale": 5,
+        "count": 57,
+        "source": "Synthetic demo reviews",
+        "sourceUrl": null,
+        "simulated": true
+      },
+      "nextAvailableAt": "2026-12-07T15:00:00+01:00",
+      "availabilitySimulated": true,
+      "recordOrigin": "demo_sample",
+      "sourceUrl": null
+    },
+    {
+      "id": "demo-maastricht-019",
+      "name": "CV Partner Team Demo 19",
+      "city": "Maastricht",
+      "area": "Borgharen",
+      "address": null,
+      "postcode": null,
+      "position": {
+        "latitude": 50.8845,
+        "longitude": 5.6905,
+        "precision": "synthetic_area_centroid"
+      },
+      "services": [
+        "no_heat",
+        "boiler",
+        "radiator",
+        "hot_water",
+        "thermostat"
+      ],
+      "priceRanges": [
+        {
+          "problem_type": "no_heat",
+          "minimum_eur": 80,
+          "maximum_eur": 160,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "boiler",
+          "minimum_eur": 85,
+          "maximum_eur": 170,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "radiator",
+          "minimum_eur": 70,
+          "maximum_eur": 140,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "hot_water",
+          "minimum_eur": 75,
+          "maximum_eur": 160,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "thermostat",
+          "minimum_eur": 65,
+          "maximum_eur": 130,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        }
+      ],
+      "reviews": {
+        "score": 3.6,
+        "scale": 5,
+        "count": 76,
+        "source": "Synthetic demo reviews",
+        "sourceUrl": null,
+        "simulated": true
+      },
+      "nextAvailableAt": "2026-12-09T09:00:00+01:00",
+      "availabilitySimulated": true,
+      "recordOrigin": "demo_sample",
+      "sourceUrl": null
+    },
+    {
+      "id": "demo-maastricht-020",
+      "name": "Limburg Comfort Team Demo 20",
+      "city": "Maastricht",
+      "area": "Bosscherveld",
+      "address": null,
+      "postcode": null,
+      "position": {
+        "latitude": 50.87,
+        "longitude": 5.6785,
+        "precision": "synthetic_area_centroid"
+      },
+      "services": [
+        "radiator",
+        "hot_water",
+        "thermostat",
+        "heat_pump",
+        "no_heat",
+        "boiler"
+      ],
+      "priceRanges": [
+        {
+          "problem_type": "radiator",
+          "minimum_eur": 70,
+          "maximum_eur": 145,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "hot_water",
+          "minimum_eur": 80,
+          "maximum_eur": 165,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "thermostat",
+          "minimum_eur": 65,
+          "maximum_eur": 140,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "heat_pump",
+          "minimum_eur": 120,
+          "maximum_eur": 245,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "no_heat",
+          "minimum_eur": 85,
+          "maximum_eur": 165,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "boiler",
+          "minimum_eur": 90,
+          "maximum_eur": 180,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        }
+      ],
+      "reviews": {
+        "score": 4.3,
+        "scale": 5,
+        "count": 95,
+        "source": "Synthetic demo reviews",
+        "sourceUrl": null,
+        "simulated": true
+      },
+      "nextAvailableAt": "2026-11-25T11:00:00+01:00",
+      "availabilitySimulated": true,
+      "recordOrigin": "demo_sample",
+      "sourceUrl": null
+    },
+    {
+      "id": "demo-maastricht-021",
+      "name": "MaasWarm Installatiegroep Demo 21",
+      "city": "Maastricht",
+      "area": "Nazareth",
+      "address": null,
+      "postcode": null,
+      "position": {
+        "latitude": 50.8705,
+        "longitude": 5.7255,
+        "precision": "synthetic_area_centroid"
+      },
+      "services": [
+        "thermostat",
+        "heat_pump",
+        "no_heat"
+      ],
+      "priceRanges": [
+        {
+          "problem_type": "thermostat",
+          "minimum_eur": 70,
+          "maximum_eur": 145,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "heat_pump",
+          "minimum_eur": 125,
+          "maximum_eur": 260,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "no_heat",
+          "minimum_eur": 90,
+          "maximum_eur": 175,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        }
+      ],
+      "reviews": {
+        "score": 3.6,
+        "scale": 5,
+        "count": 114,
+        "source": "Synthetic demo reviews",
+        "sourceUrl": null,
+        "simulated": true
+      },
+      "nextAvailableAt": "2026-11-30T13:00:00+01:00",
+      "availabilitySimulated": true,
+      "recordOrigin": "demo_sample",
+      "sourceUrl": null
+    },
+    {
+      "id": "demo-maastricht-022",
+      "name": "Limburg Heat Installatiegroep Demo 22",
+      "city": "Maastricht",
+      "area": "Centrum",
+      "address": null,
+      "postcode": null,
+      "position": {
+        "latitude": 50.8515,
+        "longitude": 5.691,
+        "precision": "synthetic_area_centroid"
+      },
+      "services": [
+        "no_heat",
+        "boiler",
+        "radiator",
+        "hot_water"
+      ],
+      "priceRanges": [
+        {
+          "problem_type": "no_heat",
+          "minimum_eur": 95,
+          "maximum_eur": 180,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "boiler",
+          "minimum_eur": 100,
+          "maximum_eur": 200,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "radiator",
+          "minimum_eur": 80,
+          "maximum_eur": 160,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "hot_water",
+          "minimum_eur": 90,
+          "maximum_eur": 180,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        }
+      ],
+      "reviews": {
+        "score": 4.3,
+        "scale": 5,
+        "count": 133,
+        "source": "Synthetic demo reviews",
+        "sourceUrl": null,
+        "simulated": true
+      },
+      "nextAvailableAt": "2026-12-01T15:00:00+01:00",
+      "availabilitySimulated": true,
+      "recordOrigin": "demo_sample",
+      "sourceUrl": null
+    },
+    {
+      "id": "demo-maastricht-023",
+      "name": "Stadsverwarming Service Installatiegroep Demo 23",
+      "city": "Maastricht",
+      "area": "Wyck",
+      "address": null,
+      "postcode": null,
+      "position": {
+        "latitude": 50.85,
+        "longitude": 5.703,
+        "precision": "synthetic_area_centroid"
+      },
+      "services": [
+        "radiator",
+        "hot_water",
+        "thermostat",
+        "heat_pump",
+        "no_heat"
+      ],
+      "priceRanges": [
+        {
+          "problem_type": "radiator",
+          "minimum_eur": 80,
+          "maximum_eur": 170,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "hot_water",
+          "minimum_eur": 90,
+          "maximum_eur": 190,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "thermostat",
+          "minimum_eur": 75,
+          "maximum_eur": 155,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "heat_pump",
+          "minimum_eur": 135,
+          "maximum_eur": 280,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "no_heat",
+          "minimum_eur": 100,
+          "maximum_eur": 190,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        }
+      ],
+      "reviews": {
+        "score": 3.6,
+        "scale": 5,
+        "count": 15,
+        "source": "Synthetic demo reviews",
+        "sourceUrl": null,
+        "simulated": true
+      },
+      "nextAvailableAt": "2026-12-04T09:00:00+01:00",
+      "availabilitySimulated": true,
+      "recordOrigin": "demo_sample",
+      "sourceUrl": null
+    },
+    {
+      "id": "demo-maastricht-024",
+      "name": "ComfortKetel Installatiegroep Demo 24",
+      "city": "Maastricht",
+      "area": "Wittevrouwenveld",
+      "address": null,
+      "postcode": null,
+      "position": {
+        "latitude": 50.8575,
+        "longitude": 5.716,
+        "precision": "synthetic_area_centroid"
+      },
+      "services": [
+        "thermostat",
+        "heat_pump",
+        "no_heat",
+        "boiler",
+        "radiator",
+        "hot_water"
+      ],
+      "priceRanges": [
+        {
+          "problem_type": "thermostat",
+          "minimum_eur": 80,
+          "maximum_eur": 165,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "heat_pump",
+          "minimum_eur": 140,
+          "maximum_eur": 295,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "no_heat",
+          "minimum_eur": 100,
+          "maximum_eur": 200,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "boiler",
+          "minimum_eur": 105,
+          "maximum_eur": 215,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "radiator",
+          "minimum_eur": 85,
+          "maximum_eur": 175,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "hot_water",
+          "minimum_eur": 95,
+          "maximum_eur": 200,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        }
+      ],
+      "reviews": {
+        "score": 4.3,
+        "scale": 5,
+        "count": 34,
+        "source": "Synthetic demo reviews",
+        "sourceUrl": null,
+        "simulated": true
+      },
+      "nextAvailableAt": "2026-12-07T11:00:00+01:00",
+      "availabilitySimulated": true,
+      "recordOrigin": "demo_sample",
+      "sourceUrl": null
+    },
+    {
+      "id": "demo-maastricht-025",
+      "name": "Heater Help Installatiegroep Demo 25",
+      "city": "Maastricht",
+      "area": "Heer",
+      "address": null,
+      "postcode": null,
+      "position": {
+        "latitude": 50.8235,
+        "longitude": 5.7285,
+        "precision": "synthetic_area_centroid"
+      },
+      "services": [
+        "no_heat",
+        "boiler",
+        "radiator"
+      ],
+      "priceRanges": [
+        {
+          "problem_type": "no_heat",
+          "minimum_eur": 105,
+          "maximum_eur": 205,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "boiler",
+          "minimum_eur": 110,
+          "maximum_eur": 225,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "radiator",
+          "minimum_eur": 90,
+          "maximum_eur": 180,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        }
+      ],
+      "reviews": {
+        "score": 3.6,
+        "scale": 5,
+        "count": 53,
+        "source": "Synthetic demo reviews",
+        "sourceUrl": null,
+        "simulated": true
+      },
+      "nextAvailableAt": "2026-11-23T13:00:00+01:00",
+      "availabilitySimulated": true,
+      "recordOrigin": "demo_sample",
+      "sourceUrl": null
+    },
+    {
+      "id": "demo-maastricht-026",
+      "name": "Maasland Installaties Installatiegroep Demo 26",
+      "city": "Maastricht",
+      "area": "Scharn",
+      "address": null,
+      "postcode": null,
+      "position": {
+        "latitude": 50.852,
+        "longitude": 5.7225,
+        "precision": "synthetic_area_centroid"
+      },
+      "services": [
+        "radiator",
+        "hot_water",
+        "thermostat",
+        "heat_pump"
+      ],
+      "priceRanges": [
+        {
+          "problem_type": "radiator",
+          "minimum_eur": 90,
+          "maximum_eur": 190,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "hot_water",
+          "minimum_eur": 105,
+          "maximum_eur": 215,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "thermostat",
+          "minimum_eur": 85,
+          "maximum_eur": 175,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "heat_pump",
+          "minimum_eur": 150,
+          "maximum_eur": 315,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        }
+      ],
+      "reviews": {
+        "score": 4.3,
+        "scale": 5,
+        "count": 72,
+        "source": "Synthetic demo reviews",
+        "sourceUrl": null,
+        "simulated": true
+      },
+      "nextAvailableAt": "2026-11-26T15:00:00+01:00",
+      "availabilitySimulated": true,
+      "recordOrigin": "demo_sample",
+      "sourceUrl": null
+    },
+    {
+      "id": "demo-maastricht-027",
+      "name": "WarmThuis Installatiegroep Demo 27",
+      "city": "Maastricht",
+      "area": "Amby",
+      "address": null,
+      "postcode": null,
+      "position": {
+        "latitude": 50.8755,
+        "longitude": 5.7415,
+        "precision": "synthetic_area_centroid"
+      },
+      "services": [
+        "thermostat",
+        "heat_pump",
+        "no_heat",
+        "boiler",
+        "radiator"
+      ],
+      "priceRanges": [
+        {
+          "problem_type": "thermostat",
+          "minimum_eur": 60,
+          "maximum_eur": 125,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "heat_pump",
+          "minimum_eur": 110,
+          "maximum_eur": 225,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "no_heat",
+          "minimum_eur": 75,
+          "maximum_eur": 150,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "boiler",
+          "minimum_eur": 80,
+          "maximum_eur": 165,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "radiator",
+          "minimum_eur": 65,
+          "maximum_eur": 135,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        }
+      ],
+      "reviews": {
+        "score": 3.6,
+        "scale": 5,
+        "count": 91,
+        "source": "Synthetic demo reviews",
+        "sourceUrl": null,
+        "simulated": true
+      },
+      "nextAvailableAt": "2026-11-30T09:00:00+01:00",
+      "availabilitySimulated": true,
+      "recordOrigin": "demo_sample",
+      "sourceUrl": null
+    },
+    {
+      "id": "demo-maastricht-028",
+      "name": "Zuid Service Installatiegroep Demo 28",
+      "city": "Maastricht",
+      "area": "Randwyck",
+      "address": null,
+      "postcode": null,
+      "position": {
+        "latitude": 50.8335,
+        "longitude": 5.7145,
+        "precision": "synthetic_area_centroid"
+      },
+      "services": [
+        "no_heat",
+        "boiler",
+        "radiator",
+        "hot_water",
+        "thermostat",
+        "heat_pump"
+      ],
+      "priceRanges": [
+        {
+          "problem_type": "no_heat",
+          "minimum_eur": 80,
+          "maximum_eur": 160,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "boiler",
+          "minimum_eur": 85,
+          "maximum_eur": 170,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "radiator",
+          "minimum_eur": 70,
+          "maximum_eur": 140,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "hot_water",
+          "minimum_eur": 75,
+          "maximum_eur": 160,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "thermostat",
+          "minimum_eur": 65,
+          "maximum_eur": 130,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "heat_pump",
+          "minimum_eur": 115,
+          "maximum_eur": 235,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        }
+      ],
+      "reviews": {
+        "score": 4.3,
+        "scale": 5,
+        "count": 110,
+        "source": "Synthetic demo reviews",
+        "sourceUrl": null,
+        "simulated": true
+      },
+      "nextAvailableAt": "2026-12-02T11:00:00+01:00",
+      "availabilitySimulated": true,
+      "recordOrigin": "demo_sample",
+      "sourceUrl": null
+    },
+    {
+      "id": "demo-maastricht-029",
+      "name": "KetelKeur Installatiegroep Demo 29",
+      "city": "Maastricht",
+      "area": "De Heeg",
+      "address": null,
+      "postcode": null,
+      "position": {
+        "latitude": 50.819,
+        "longitude": 5.7155,
+        "precision": "synthetic_area_centroid"
+      },
+      "services": [
+        "radiator",
+        "hot_water",
+        "thermostat"
+      ],
+      "priceRanges": [
+        {
+          "problem_type": "radiator",
+          "minimum_eur": 70,
+          "maximum_eur": 145,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "hot_water",
+          "minimum_eur": 80,
+          "maximum_eur": 165,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "thermostat",
+          "minimum_eur": 65,
+          "maximum_eur": 140,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        }
+      ],
+      "reviews": {
+        "score": 3.6,
+        "scale": 5,
+        "count": 129,
+        "source": "Synthetic demo reviews",
+        "sourceUrl": null,
+        "simulated": true
+      },
+      "nextAvailableAt": "2026-12-07T13:00:00+01:00",
+      "availabilitySimulated": true,
+      "recordOrigin": "demo_sample",
+      "sourceUrl": null
+    },
+    {
+      "id": "demo-maastricht-030",
+      "name": "Heer Heating Installatiegroep Demo 30",
+      "city": "Maastricht",
+      "area": "Daalhof",
+      "address": null,
+      "postcode": null,
+      "position": {
+        "latitude": 50.8465,
+        "longitude": 5.6495,
+        "precision": "synthetic_area_centroid"
+      },
+      "services": [
+        "thermostat",
+        "heat_pump",
+        "no_heat",
+        "boiler"
+      ],
+      "priceRanges": [
+        {
+          "problem_type": "thermostat",
+          "minimum_eur": 70,
+          "maximum_eur": 145,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "heat_pump",
+          "minimum_eur": 125,
+          "maximum_eur": 260,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "no_heat",
+          "minimum_eur": 90,
+          "maximum_eur": 175,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        },
+        {
+          "problem_type": "boiler",
+          "minimum_eur": 95,
+          "maximum_eur": 190,
+          "currency": "EUR",
+          "price_basis": "demo_estimate",
+          "includes_vat": true,
+          "includes_parts": false
+        }
+      ],
+      "reviews": {
+        "score": 4.3,
+        "scale": 5,
+        "count": 11,
+        "source": "Synthetic demo reviews",
+        "sourceUrl": null,
+        "simulated": true
+      },
+      "nextAvailableAt": "2026-12-08T15:00:00+01:00",
+      "availabilitySimulated": true,
+      "recordOrigin": "demo_sample",
+      "sourceUrl": null
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Specialist Directory Preview</title>
+<style>
+  :root {
+    --bg: #faf6f1; --surface: #ffffff; --ink: #2b211b; --muted: #75665b; --line: #e8ddd2;
+    --accent: #c2541b; --accent-soft: #fbe7da; --ok: #2f7a4b; --warn-bg: #fff4cc; --warn-ink: #6b5200;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #1c1714; --surface: #26201b; --ink: #f3ebe3; --muted: #b3a497; --line: #3d342d;
+      --accent: #f08a4b; --accent-soft: #3b2619; --ok: #6fc48f; --warn-bg: #3a3214; --warn-ink: #f2d97a;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #1c1714; --surface: #26201b; --ink: #f3ebe3; --muted: #b3a497; --line: #3d342d;
+    --accent: #f08a4b; --accent-soft: #3b2619; --ok: #6fc48f; --warn-bg: #3a3214; --warn-ink: #f2d97a;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 1040px; margin: 0 auto; padding: 24px 16px 64px; }
+  h1 { font-size: 26px; margin: 0 0 4px; }
+  h2 { font-size: 19px; margin: 36px 0 12px; }
+  .sub { color: var(--muted); margin: 0 0 16px; }
+  .banner { background: var(--warn-bg); color: var(--warn-ink); border-radius: 10px; padding: 10px 14px; font-weight: 600; margin: 16px 0; }
+  .controls { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 16px; }
+  label { display: flex; flex-direction: column; font-size: 13px; color: var(--muted); gap: 4px; }
+  select { font: inherit; padding: 8px 10px; border-radius: 8px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); min-width: 170px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 16px; display: flex; flex-direction: column; gap: 8px; }
+  .pick-label { color: var(--accent); font-weight: 700; font-size: 13px; text-transform: uppercase; letter-spacing: .04em; }
+  .name { font-weight: 700; font-size: 17px; }
+  .facts { display: grid; grid-template-columns: auto 1fr; gap: 2px 12px; font-size: 14px; }
+  .facts dt { color: var(--muted); }
+  .facts dd { margin: 0; }
+  .reason { background: var(--accent-soft); border-radius: 8px; padding: 8px 10px; font-size: 14px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip { border: 1px solid var(--line); border-radius: 999px; padding: 1px 9px; font-size: 12px; color: var(--muted); }
+  .chip.also { border-color: var(--ok); color: var(--ok); }
+  .note { color: var(--muted); font-style: italic; }
+  button { font: inherit; border: 1px solid var(--accent); color: var(--accent); background: transparent; border-radius: 8px; padding: 6px 10px; cursor: pointer; align-self: flex-start; }
+  pre { background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 10px; font-size: 12px; overflow-x: auto; max-height: 320px; margin: 0; }
+  .empty { color: var(--muted); }
+  .chip.real { border-color: var(--accent); color: var(--accent); }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Specialist directory &amp; comparison</h1>
+  <p class="sub">Person 4's feature preview, using the team's Maastricht specialist database. The landlord's real selection screen is Person 2's.</p>
+  <div class="banner">Demo data: all prices and appointment times are estimates, "Demo" businesses are fictional, and nobody is contacted from this page.</div>
+
+  <h2>Three choices for a repair request</h2>
+  <div class="controls">
+    <label>Tenant's area <select id="area"></select></label>
+    <label>Problem <select id="service"></select></label>
+    <label>Urgency <select id="urgency"></select></label>
+  </div>
+  <div id="notes"></div>
+  <div id="choices" class="grid"></div>
+
+  <h2>All specialists (<span id="count">…</span>)</h2>
+  <div class="controls">
+    <label>Based in <select id="dirArea"><option value="">Anywhere in Maastricht</option></select></label>
+    <label>Problem <select id="dirService"><option value="">Any problem</option></select></label>
+  </div>
+  <div id="directory" class="grid"></div>
+</main>
+
+<script type="module">
+import {
+  loadDirectory, buildShortlist, makeSpecialistSelection, buildContactHandoff,
+  MAASTRICHT_AREAS, SERVICE_CATEGORIES, URGENCY_LEVELS, RECOMMENDATION_LABELS, formatMoney, formatSlot,
+} from "../src/index.js";
+
+const $ = (id) => document.getElementById(id);
+
+function el(tag, props = {}, ...children) {
+  const node = document.createElement(tag);
+  Object.assign(node, props);
+  for (const c of children.flat(Infinity)) if (c != null) node.append(c);
+  return node;
+}
+
+function fillSelect(select, entries) {
+  for (const [value, text] of entries) select.append(el("option", { value, textContent: text }));
+}
+const areas = Object.keys(MAASTRICHT_AREAS).sort();
+const serviceEntries = Object.entries(SERVICE_CATEGORIES);
+fillSelect($("area"), areas.map((a) => [a, a]));
+fillSelect($("service"), serviceEntries);
+fillSelect($("urgency"), URGENCY_LEVELS.map((u) => [u, u[0].toUpperCase() + u.slice(1)]));
+$("area").value = "Centrum";
+$("urgency").value = "routine";
+fillSelect($("dirService"), serviceEntries);
+
+const facts = (pairs) => el("dl", { className: "facts" }, pairs.filter(Boolean).map(([k, v]) => [el("dt", { textContent: k }), el("dd", {}, v)]));
+const stars = (r) => (r ? `${r.average.toFixed(1)}★ (${r.count} reviews${r.simulated ? ", demo" : ""})` : "No review score yet");
+const range = (p, cur) => `${formatMoney(p.low, cur)}–${formatMoney(p.high, cur)}`;
+const originChip = (s) => (s.isFictional
+  ? el("span", { className: "chip", textContent: "Fictional demo business" })
+  : el("span", { className: "chip real", textContent: "Real business (public listing)" }));
+const sourceLink = (s) => (s.sourceUrl ? el("a", { href: s.sourceUrl, target: "_blank", rel: "noopener", textContent: "Public listing ↗" }) : null);
+
+let directory;
+
+function currentRequest() {
+  // Example request in the PROPOSED shared format (see README.md).
+  return {
+    id: "req_preview_001",
+    status: "finding_specialists",
+    home: { city: "Maastricht", area: $("area").value, unit: "Apartment 2" },
+    issue: { category: $("service").value, urgency: $("urgency").value, description: "Radiators cold since this morning." },
+    access: { notes: "Key with the neighbour at number 3." },
+  };
+}
+
+async function renderChoices() {
+  const request = currentRequest();
+  const shortlist = await buildShortlist(directory, request);
+  request.specialistChoices = shortlist;
+
+  $("notes").replaceChildren(...shortlist.notes.map((n) => el("p", { className: "note", textContent: n })));
+  $("choices").replaceChildren(...shortlist.choices.map((c) => {
+    const s = c.specialist;
+    const out = el("pre", { hidden: true });
+    const btn = el("button", { textContent: "Show handoff data for Person 3" });
+    btn.onclick = async () => {
+      const selection = makeSpecialistSelection(request, c.specialistId);
+      const handoff = await buildContactHandoff(directory, { ...request, chosenSpecialist: selection }, c.specialistId);
+      out.textContent = JSON.stringify({ chosenSpecialist: selection, handoff }, null, 2);
+      out.hidden = !out.hidden;
+    };
+    return el("article", { className: "card" },
+      el("div", { className: "pick-label", textContent: c.label }),
+      el("div", { className: "name", textContent: s.name }),
+      el("div", { className: "chips" }, originChip(s)),
+      facts([
+        ["Estimate", range(s.priceEstimate, s.priceEstimate.currency)],
+        ["Reviews", stars(s.rating)],
+        ["Next visit", formatSlot(s.nextAvailable.start)],
+        ["Based in", s.distanceKm != null ? `${s.area} (~${s.distanceKm} km)` : s.area],
+      ]),
+      el("div", { className: "reason", textContent: c.reason }),
+      c.alsoBestFor.length ? el("div", { className: "chips" }, c.alsoBestFor.map((k) => el("span", { className: "chip also", textContent: `Also best: ${RECOMMENDATION_LABELS[k]}` }))) : null,
+      btn, out,
+    );
+  }));
+}
+
+async function renderDirectory() {
+  const list = await directory.list({ area: $("dirArea").value || undefined, service: $("dirService").value || undefined });
+  $("count").textContent = list.length;
+  if (!list.length) { $("directory").replaceChildren(el("p", { className: "empty", textContent: "No specialists match these filters." })); return; }
+  $("directory").replaceChildren(...list.map((s) => el("article", { className: "card" },
+    el("div", { className: "name", textContent: s.name }),
+    el("div", { className: "chips" }, originChip(s)),
+    facts([
+      ["Reviews", stars(s.rating)],
+      ["Based in", [s.area, s.address ? ` · ${s.address}` : ""].join("")],
+      ["Next visit", s.availability[0] ? formatSlot(s.availability[0].start) : "No open slots"],
+    ]),
+    el("div", { className: "chips" },
+      s.services.map((k) => el("span", { className: "chip", textContent: `${SERVICE_CATEGORIES[k]}: ${range(s.priceEstimates[k], s.currency)}` })),
+    ),
+    sourceLink(s),
+  )));
+}
+
+try {
+  directory = await loadDirectory();
+  const baseAreas = [...new Set((await directory.list()).map((s) => s.area))].sort();
+  fillSelect($("dirArea"), baseAreas.map((a) => [a, a]));
+  for (const id of ["area", "service", "urgency"]) $(id).onchange = renderChoices;
+  for (const id of ["dirArea", "dirService"]) $(id).onchange = renderDirectory;
+  await renderChoices();
+  await renderDirectory();
+} catch (e) {
+  $("choices").replaceChildren(el("p", { className: "note", textContent: `Could not load the specialist database: ${e.message}` }));
+}
+</script>
+</body>
+</html>
